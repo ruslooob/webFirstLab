@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Визитка</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="card">
+          <h1 class="card__header">Да, да я. Мамедов Руслан Вагифович</h1>
+          <div class="card__content">
+            <img class="card__img" src="img/photo.png" alt="whoops..." />
+            <span class="card__text"
+              >Работаю в медсофте, пишу на спринге.<br /><br />
+              Есть примитивные навыки верстки сайтов (сверстать макет кое-как
+              смогу). Есть опыт работы на
+              <a class="card__text--red" href="https://laravel.com/">Laravel</a>
+              (web-приложение)<br />
+
+              Скорость печати: 400+ символов в минуту.<br /><br />
+
+              В свободное время занимаюсь спортом (футбол, тренажерный зал),
+              читаю технические книги.<br />
+              <a class="card__text--gray" href="#">читать дальше</a>
+              <div class="card__icons">
+                <a
+                  class="card__icon"
+                  href="https://vk.com/ruslan_mamedov2000"
+                  target="_blank"
+                >
+                  <img src="img/vk-icon.svg" alt="whoops..."
+                /></a>
+                <a class="card__icon" href="@ruslooob">
+                  <img src="img/telegram-icon.svg" alt="whoops..."
+                /></a>
+                <a
+                  class="card__icon"
+                  href="https://github.com/ruslooob"
+                  target="_blank"
+                >
+                  <img src="img/github-icon.svg" alt="whoops..." />
+                </a>
+              </div>
+            </span>
+          </div>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                  <img src="img/java.png" alt="" />
+                </div>
+              <div class="swiper-slide">
+                <img src="img/spring.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                  <img src="img/php.png" alt="" />
+                </div>
+              <div class="swiper-slide">
+                <img src="img/laravel.png" alt="" />
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
