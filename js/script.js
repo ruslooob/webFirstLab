@@ -18,3 +18,7 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  document.querySelector('.telegram-icon').addEventListener('click', function() {
+    alert("@ruslooob")
+  });
